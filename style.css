@@ -1,0 +1,77 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #1C1C1C;
+}
+
+h1 {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-weight: 400;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+}
+
+span {
+    color: #10B981;
+}
+
+#main {
+    width: 500px;
+    background: #1F2937;
+    margin: 64px auto 64px auto;
+    padding: 118px 144px 10px 50px;
+}
+
+button {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background: #10B981;
+    border: none;
+}
+
+hr {
+    margin-top: 35px;
+    border: 1px solid #2F3E53
+}
+
+input {
+    background: #273549;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 16px;
+}
+
+#password-display {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10px;
+}
+
+#bolt {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#password1 , #password2 {
+    color: #10B981;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
